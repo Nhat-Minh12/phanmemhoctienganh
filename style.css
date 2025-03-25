@@ -18,7 +18,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: transform 0.1s ease;
+    transition: transform 0.1s ease, box-shadow 0.2s ease;
 }
 
 button:hover {
@@ -27,4 +27,15 @@ button:hover {
 
 button:active {
     transform: scale(0.95);
+    box-shadow: 0 0 15px #4CAF50;
+    animation: shake 0.2s ease;
 }
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+}
+
