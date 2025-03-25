@@ -18,8 +18,13 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: transform 0.1s ease;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+button:active {
+    transform: scale(0.95);
 }
