@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Learning Website</title>
     <link rel="stylesheet" href="style.css">
+    <title>English Learning Website</title>
 </head>
-
 <body>
-    <h1>Welcome to English Learning!</h1>
-    <p>Let’s learn English together with Global Success Grade 7!</p>
+    <div class="container">
+        <h1>Welcome to English Learning!</h1>
+        <p>Let’s learn English together with Global Success Grade 7!</p>
+        <button id="startButton">Start Learning</button>
 
-    <!-- Nút chuyển hướng sang trang bài học -->
-    <button onclick="window.location.href='lessons.html'">Start Learning</button>
+        <h2>Select a Unit</h2>
+        <div class="unit-buttons">
+            <button onclick="startQuiz('unit7')">Unit 7</button>
+            <button onclick="startQuiz('unit8')">Unit 8</button>
+            <button onclick="startQuiz('unit9')">Unit 9</button>
+            <button onclick="startQuiz('unit10')">Unit 10</button>
+        </div>
 
+        <h2>Unit Quiz</h2>
+        <div id="quizContainer"></div>
+    </div>
+
+    <script src="quiz.js"></script>
 </body>
 </html>
+
