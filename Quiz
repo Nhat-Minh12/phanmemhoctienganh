@@ -1,0 +1,54 @@
+const quizzes = {
+  unit7: [
+    { question: "What is your favorite hobby?", answers: ["A. Reading", "B. Swimming", "C. Cooking", "D. Painting"], correct: "A" },
+    { question: "Which activity helps you relax?", answers: ["A. Jogging", "B. Watching movies", "C. Studying", "D. Cleaning"], correct: "B" },
+    { question: "What is a common indoor hobby?", answers: ["A. Gardening", "B. Running", "C. Drawing", "D. Surfing"], correct: "C" },
+    { question: "What hobby uses a camera?", answers: ["A. Cooking", "B. Photography", "C. Singing", "D. Writing"], correct: "B" },
+    { question: "Which hobby needs a lot of plants?", answers: ["A. Gardening", "B. Painting", "C. Writing", "D. Dancing"], correct: "A" },
+    { question: "What hobby is about listening to sound?", answers: ["A. Painting", "B. Watching TV", "C. Listening to music", "D. Playing games"], correct: "C" },
+    { question: "What hobby uses a pencil and paper?", answers: ["A. Drawing", "B. Dancing", "C. Swimming", "D. Gardening"], correct: "A" },
+    { question: "What hobby involves creating things?", answers: ["A. Swimming", "B. Watching movies", "C. Crafting", "D. Jogging"], correct: "C" },
+    { question: "What hobby involves moving your body?", answers: ["A. Reading", "B. Dancing", "C. Painting", "D. Cooking"], correct: "B" },
+    { question: "What do people usually do for fun on weekends?", answers: ["A. Study", "B. Sleep", "C. Go hiking", "D. Work"], correct: "C" }
+  ],
+
+  unit8: [
+    { question: "What type of music is slow and emotional?", answers: ["A. Rock", "B. Pop", "C. Jazz", "D. Ballad"], correct: "D" },
+    { question: "Who is a famous pop singer?", answers: ["A. Beethoven", "B. Taylor Swift", "C. Mozart", "D. Bach"], correct: "B" },
+    { question: "Which instrument has strings?", answers: ["A. Guitar", "B. Flute", "C. Drum", "D. Trumpet"], correct: "A" },
+    { question: "Which instrument do you blow air into?", answers: ["A. Piano", "B. Violin", "C. Saxophone", "D. Guitar"], correct: "C" },
+    { question: "What is a group of musicians called?", answers: ["A. Choir", "B. Band", "C. Orchestra", "D. Team"], correct: "B" },
+    { question: "What is a traditional Vietnamese instrument?", answers: ["A. Guitar", "B. Piano", "C. Dan Bau", "D. Drum"], correct: "C" },
+    { question: "Which song is fast and energetic?", answers: ["A. Lullaby", "B. Symphony", "C. Dance music", "D. Ballad"], correct: "C" },
+    { question: "Who leads an orchestra?", answers: ["A. Singer", "B. Conductor", "C. Guitarist", "D. Drummer"], correct: "B" },
+    { question: "What does a singer do?", answers: ["A. Paint", "B. Sing", "C. Dance", "D. Write"], correct: "B" },
+    { question: "What is the main beat in music called?", answers: ["A. Melody", "B. Rhythm", "C. Tempo", "D. Harmony"], correct: "B" }
+  ],
+
+  unit9: [
+    { question: "What is the capital of Vietnam?", answers: ["A. Ho Chi Minh City", "B. Da Nang", "C. Hanoi", "D. Hue"], correct: "C" },
+    { question: "Which city is known for its beaches?", answers: ["A. Sapa", "B. Da Nang", "C. Hanoi", "D. Can Tho"], correct: "B" },
+    { question: "Where is Ha Long Bay located?", answers: ["A. Da Nang", "B. Hanoi", "C. Quang Ninh", "D. Hue"], correct: "C" },
+    { question: "Which city is famous for street food?", answers: ["A. Hue", "B. Hanoi", "C. Ho Chi Minh City", "D. Da Lat"], correct: "C" },
+    { question: "Where can you visit ancient temples?", answers: ["A. Hue", "B. Nha Trang", "C. Vung Tau", "D. Sapa"], correct: "A" },
+    { question: "Which city has the Golden Bridge?", answers: ["A. Ho Chi Minh City", "B. Da Nang", "C. Hanoi", "D. Ha Long"], correct: "B" },
+    { question: "Which city is known for its floating markets?", answers: ["A. Hue", "B. Can Tho", "C. Da Nang", "D. Hanoi"], correct: "B" },
+    { question: "Which city has a big international airport?", answers: ["A. Da Nang", "B. Nha Trang", "C. Ho Chi Minh City", "D. Hue"], correct: "C" },
+    { question: "What is the city of love in Vietnam?", answers: ["A. Da Lat", "B. Hanoi", "C. Da Nang", "D. Can Tho"], correct: "A" },
+    { question: "Which city has the tallest building?", answers: ["A. Da Nang", "B. Hanoi", "C. Ho Chi Minh City", "D. Nha Trang"], correct: "C" }
+  ],
+
+  unit10: [
+    { question: "What can we use to reduce plastic waste?", answers: ["A. Plastic bags", "B. Reusable bags", "C. Straws", "D. Bottles"], correct: "B" },
+    { question: "What should we do to protect the environment?", answers: ["A. Litter", "B. Recycle", "C. Burn trash", "D. Waste water"], correct: "B" },
+    { question: "What can we recycle?", answers: ["A. Plastic", "B. Metal", "C. Paper", "D. All of the above"], correct: "D" },
+    { question: "How can we save electricity?", answers: ["A. Leave lights on", "B. Turn off unused devices", "C. Use more air conditioning", "D. Use non-LED bulbs"], correct: "B" },
+    { question: "What is an eco-friendly product?", answers: ["A. Plastic straw", "B. Bamboo toothbrush", "C. Styrofoam cup", "D. Plastic spoon"], correct: "B" },
+    { question: "How can we reduce water waste?", answers: ["A. Take long showers", "B. Turn off the tap while brushing", "C. Let water run freely", "D. Water the garden daily"], correct: "B" },
+    { question: "Which is a renewable energy source?", answers: ["A. Coal", "B. Oil", "C. Solar", "D. Gas"], correct: "C" },
+    { question: "What happens if we cut too many trees?", answers: ["A. Cleaner air", "B. More oxygen", "C. Soil erosion", "D. More rain"], correct: "C" },
+    { question: "Why should we avoid plastic products?", answers: ["A. They are eco-friendly", "B. They cause pollution", "C. They are cheap", "D. They decompose quickly"], correct: "B" },
+    { question: "What can we do to protect endangered animals?", answers: ["A. Destroy forests", "B. Hunt them", "C. Protect their habitats", "D. Keep them as pets"], correct: "C" }
+  ]
+};
+
